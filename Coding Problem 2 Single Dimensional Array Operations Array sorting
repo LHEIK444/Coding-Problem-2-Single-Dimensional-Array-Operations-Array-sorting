@@ -1,0 +1,22 @@
+// Step 1: Define the arrays
+let numbers = [24, 65, 21, 5, 9, 32, 42, 80, 57];
+let names = ['Zenvo', 'Erica', 'Jordie', 'Alicia', 'Redon'];
+
+// Step 2: Merge the arrays
+let combinedArray = numbers.concat(names);
+
+// Step 3: Log the combined array to the console
+console.log('Merged Array:', combinedArray);
+
+// Step 4: Sort numbers in reverse order (numerically)
+let sortedNumbers = numbers.sort((a, b) => b - a);
+
+// Step 5: Log the sorted numbers to the console
+console.log('Sorted Numbers (Descending):', sortedNumbers);
+
+// Step 6: Sort names alphabetically
+let sortedNames = names.sort();
+
+// Step 7: Log the sorted names to the console
+console.log('Sorted Names (Alphabetical):', sortedNames);
+
